@@ -11,7 +11,7 @@
 #include <stdio.h>
 
 int main(){
-    int x; 
+    int x
     printf("Introduza um número inteiro positivo:"); 
     scanf("%d",&x); 
     if(x%2 == 1) printf("%d é impar!\n",x); 

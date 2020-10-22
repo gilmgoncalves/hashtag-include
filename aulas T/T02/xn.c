@@ -11,15 +11,15 @@
 #include <stdio.h>
 int main(){
   int expoente=0, n;
-	  float base, x=1;
+  float base, x=1;
 
-	  printf("Base: "); scanf("%f", &base);
-	  printf("Expoente: "); scanf("%d", &n);
+  printf("Base: "); scanf("%f", &base);
+  printf("Expoente: "); scanf("%d", &n);
 
-	  while (expoente < n){
-		x=base*x;
-		expoente=expoente+1;
-	  }
+  while (expoente < n){
+	  x=base*x;
+	  expoente=expoente+1;
+  }
 
-	  printf("%f^%d = %f\n", base, n, x);
+  printf("%f^%d = %f\n", base, n, x);
 }
