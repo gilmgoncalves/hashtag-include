@@ -15,7 +15,7 @@ int main( )
     int d=86, div1=10, r;
     float div2=10.0;
     
-    printf ("Divisão %d / %.2f = %.2f\n", d, div2, d/div2);
+    printf ("Divisão %d / %.4f = %.4f\n", d, div2, d/div2);
     printf ("Divisão %d / %d = %d\n", d, div1, d/div1);
     printf ("Resto da Divisão %d / %d = %d\n", d, div1, d%div1);
 
