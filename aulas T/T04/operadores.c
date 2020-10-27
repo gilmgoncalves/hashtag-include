@@ -18,12 +18,14 @@ int main()
 	printf("a + b = %d\n", c);
 
 	c = a - b; // diferença
+
 	printf("a - b = %d\n", c);
 
 	/* como funciona? */
 	printf("a * b = %d\n", a*b);
 
-    c = a / b;
+  c = a / b;
+
 	printf("a / b = %d\n", c);
 
 	c = 100 % 3;
