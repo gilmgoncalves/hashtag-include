@@ -22,11 +22,13 @@ float mediaharm(float a, float b)
     return 1/media(1/a, 1/b);
 }
 
-main()
+int main()
 {
     float x, y;
     printf("Valores de x e y: ");
     scanf("%f %f", &x, &y);
     printf("Media: %f\n", media(1-x, 1-y));
     printf("Media harmonica: %f\n", mediaharm(1-x, 1-y));
+
+    return 0;
 }
