@@ -18,8 +18,10 @@ int main(){
     printf("Introduza um número inteiro: ");
     scanf("%d", &i);
 
-    pi = &i;
-    pc = (char *) pi;
+   /*  pi = &i;
+    pc = (char *) pi; */
+
+    pc = (char *) &i;
 
     printf("%d:%d:%d:%d\n", *(pc+3), *(pc+2), *(pc+1), *pc);
 }
