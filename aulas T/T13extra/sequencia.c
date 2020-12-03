@@ -2,8 +2,8 @@
 *
 * MIECC - FEUP / PROG1 - EEC005
 *
-* que lê uma sequência de números inteiros positivos e 
-* determina um conjunto de características da sequência
+* programa que lê uma sequência de números inteiros positivos e 
+* determina um conjunto de características da sequência.
 *
 * Compilar: clang sequencia.c -o sequencia
 * Executar: ./sequencia
@@ -186,12 +186,11 @@ double desviopSeq(int v[], int n){
     return dp;
 }
 
-int parimparSeq(int v[], int n){
-
 /*  devolve 0 se contiver número pares e impares
     devolve 1 se apenas contem números impares
     devolve 2 se apanas contem números pares
 */
+int parimparSeq(int v[], int n){
 
     return -1;
 }
