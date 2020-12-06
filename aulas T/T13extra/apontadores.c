@@ -18,6 +18,5 @@ int main(){
     printf("(&py)\t%p\n", &py);
     printf("(px+2)\t%p\n", px+2);
     printf("(py+1)\t%p\n", py+1);
-    printf("(py)\t%p\n", py);
     printf("(--py)\t%p\n", --py);
 }
