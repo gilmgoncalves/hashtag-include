@@ -14,6 +14,7 @@
 
 #define raindrops 10000000
 double between0and1();
+void raindrop(double *x, double *y);
 int inCircle(double x, double y);
 
 int main(){
@@ -33,8 +34,7 @@ int main(){
 
      /* let it rain */
      for ( j = 0; j < raindrops; j++){
-       x = between0and1();
-       y = between0and1();
+       raindrop(&x,&y);
        hits += inCircle(x,y);
      }
      pi=(double)hits/raindrops*4;
@@ -45,6 +45,11 @@ int main(){
 
 double between0and1(){
     return (double)rand()/RAND_MAX;
+}
+
+void raindrop(double *x, double *y){
+  *x = between0and1();
+  *y = between0and1();
 }
 
 int inCircle(double x, double y){
