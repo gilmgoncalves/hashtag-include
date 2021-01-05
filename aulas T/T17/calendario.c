@@ -29,23 +29,15 @@ typedef struct
 } data;
 
 void wrdata(data d);
-
 void rddia(data* d);
-
 void rdmes(data* d);
-   
 void rdano(data* d);
-
 void rddata(data* d);
 
 int bissexto(data d);
-
 int nbissextos(data d);
-
 int um_de_janeiro(data d);
-
 int um_de_mes(data d);
-
 void calendario(void);
 
 int main(){
@@ -103,7 +95,6 @@ int nbissextos(data d){
 	nb = nb - seculos + quatrocentos;
 	return nb;
 }
-
 
 int um_de_janeiro(data d){
 	/* 1/1/1582 foi 6.a feira */
