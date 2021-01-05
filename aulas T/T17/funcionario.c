@@ -41,7 +41,9 @@ void escreve_funcionario(funcionario f) {
   printf("Ordenado: %6.f\n", f.salario);
 }
 
-main() {
+int main() {
   funcionario f = {{"Rui", "Abreu", "Silva", ""}, 35, {10, 2, 2000}, 1100};
   escreve_funcionario(f);
+
+  return 0;
 }
