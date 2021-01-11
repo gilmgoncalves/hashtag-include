@@ -16,7 +16,7 @@ int main()
 	FILE *f;
 	float v[]={3.13, 5.67, 4.98, 2.56, -2.35, -4.57, -4.89, -0.34, 3.1415};
 
-	f = fopen("real.dat", "wb");
+	f = fopen("real.txt", "wb");
 	
    	fwrite(v, sizeof(float), 9, f);
 

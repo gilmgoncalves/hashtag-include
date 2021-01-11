@@ -1,0 +1,10 @@
+televisor SuperTV S-30 524.2 54
+televisor SuperTV S-40 756.3 9
+televisor SuperTV S-45 777.5 11
+telemovel Grapple 14S 999.9 73
+telemovel Grapple 15S 1599.9 5
+tablet Grapple 10.2 399.9 45
+tablet Songsung S66 389.9 23 
+tablet Songsung A77 229.9 32
+amplificador HiSound 765GX 699.9 15 
+amplificador HiSound 795HX 999.9 7

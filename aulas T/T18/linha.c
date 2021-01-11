@@ -29,17 +29,18 @@ int main(int argc, char *argv[]){
 		for (i = 0; i < 4; i++) {
 			fprintf(fp,"%s %f\r\n", cidade[i], temp[i]);
 	 	}
+		k=4;
 	}else
 		if(argv[2][0] == 'r'){
 			/* lê do ficheiro */
-			i=0;
-            while (fscanf(fp, "%s %f", cidade[i], &temp[i])==2)
-                i++;
+			k=0;
+            while (fscanf(fp, "%s %f", cidade[k], &temp[k])==2)
+                k++;
             
 		} else
 		    printf("Operação não reconhecida!\n");
 
-    for(i=0;i<4;i++)
+    for(i=0;i<k;i++)
         printf("%s %f\n", cidade[i], temp[i]);
 
 	fclose(fp);
