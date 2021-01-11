@@ -26,6 +26,6 @@ int main()
     
     fclose(fin);
     
-    for (i = 0; i < 10; i++)
-        printf("%s %f\n", cidade[i], temp[i]);
+    for (k = 0; k < i; k++)
+        printf("%s %f\n", cidade[k], temp[k]);
 }
