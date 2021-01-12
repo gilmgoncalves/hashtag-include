@@ -37,7 +37,6 @@ int main(){
         comp = strlen(straux);
     /* verifica se é a maior palavra*/
         if(comp>strlen(maior)) strcpy(maior,straux);
-        printf("%s\n", maior);
     /* acumula comprimento */
         total += comp;
     /* próxima palavra */
