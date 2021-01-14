@@ -5,7 +5,7 @@
 * aula prática #9 - problema 5
 * Escreva um programa que pede ao utilizador para escrever uma frase e apresenta no 
 * ecrã quantas palavras constituem a frase, a palavra de maior comprimento e o 
-* comprimento m édio das palavras.
+* comprimento médio das palavras.
 *
 * Exemplo
 * Frase? O jornal de hoje tem na capa uma fotografia interessante
