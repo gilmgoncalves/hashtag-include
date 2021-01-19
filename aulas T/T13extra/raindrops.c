@@ -13,6 +13,7 @@
 #include <time.h>
 
 #define raindrops 10000000
+
 double between0and1();
 void raindrop(double *x, double *y);
 int inCircle(double x, double y);

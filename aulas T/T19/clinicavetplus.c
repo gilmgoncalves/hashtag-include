@@ -22,7 +22,7 @@ typedef struct{
 } data;
 
 typedef struct{
-  char nome[NMX];
+	char nome[NMX];
 	data nascimento;
 	char tipoanimal[NMX];
 	char dono[NMX];

@@ -1,0 +1,26 @@
+Galia	Asterix	2.2
+Galia	Obelix	30.5
+Babaorum	Surplus Dairiprodus	1.9
+Galia	Automatix	3.1
+Laudanum	Dubious Status	20.4
+Galia	Abraracourcix	4.6
+Galia	Decanonix	3.1
+Galia	Allegorix	1.3
+Galia	Arrierboutix	3.5
+Galia	Aventurepix	3.1
+Galia	Bellodalix	1.9
+Galia	Boulimix	0.2
+Aquarium	Gracchus Armisurplus	1.5
+Laudanum	Gluteus Maximus	14.3
+Galia	Analgesix	7
+Aquarium	Tremens Delirius	0.2
+Galia	Assurancetourix	2.7
+Petibonum	Caius Fatuous	0.5
+Aquarium	Givus Abonus	1.7
+Babaorum	Ignoramus Supremus	0.2
+Galia	Panoramix	0.1
+Petibonum	Crismus Bonus	1.8
+Aquarium	Phonus Balonus	10.4
+Laudanum	Caligula Minus	0.6
+Aquarium	Squareont Hypotenus	1.4
+Babaorum	Hephestus Crustacius	7.4
